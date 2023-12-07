@@ -129,7 +129,7 @@ All the dependencies required to run the project.
 ## Usage
 
 - Once you setup and installed everything, you can go to your terminal, beware of the env, it must be activated, then you can type this -> (`python app.py`) and press enter.
-- if any error is prompted, you should see an ip address something like this: `Running on http://127.0.0.1:5000` you press CTRL+click on this address and it will open your default browser with the app running.
+- if the gods of coding bless you and no errors prompted, you should see an ip address, something like this: `Running on http://127.0.0.1:5000` you press CTRL+click on this address and it will open your default browser with the app running.
 - Now you have to press the button to access the text area; furthermore you can paste any phishing related text and press the Submit button. and the results.html page will show with the results.
 
 ## Additional Information (if needed)
