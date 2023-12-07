@@ -4,8 +4,8 @@ PhishGPT: Text/Email content Phishing Detector based on OpenAI API
 
 ## Overview
 
-The goal of this project is to show the capabilities of the gpt-3.5-turbo model to analyze and detect Phishing content. Given the current problems caused by this type of attack
-this is the first approch to a future embeded tool for companies. Also, This is a capstone project for Wizeline Developers Sprint.
+The goal of this project is to show the capabilities of the gpt-3.5-turbo model to analyze and detect Phishing content. Given the current problems caused by this type of attack,
+this is one the approches using the NLP(transformers) power of this model. Also, This is a capstone project for Wizeline Developers Sprint.
 
 ## Files Overview
 
