@@ -1,6 +1,6 @@
 # Project Name
 
-PhishGPT: Text Email/content Phishing Detector based on OpenAI API
+PhishGPT: Text/Email content Phishing Detector based on OpenAI API
 
 ## Overview
 
