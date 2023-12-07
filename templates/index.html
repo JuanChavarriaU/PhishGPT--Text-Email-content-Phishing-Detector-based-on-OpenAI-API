@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" , initial-scale="1" />
+    <title>PhishGPT</title>
+
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="/static/css/style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <style>
+      .input-form {
+        display: none;
+      }
+    </style>
+
+    <div class="container mt-5">
+      <h1 align="center">PhishGPT</h1>
+      <center>
+        <div class="btn-group" id="Buttons">
+          <button class="btn btn-primary" onclick="showInputForm('text')">
+            Text or Email content
+          </button>
+        </div>
+      </center>
+
+      <form id="text-form" class="input-form" method="POST" action="/text">
+        <textarea
+          class="form-control"
+          name="user_input"
+          placeholder="Enter text"
+          style="height: 300px"
+        ></textarea>
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+    <script>
+      function showInputForm(type) {
+        const forms = document.getElementsByClassName("input-form");
+
+        for (let i = 0; i < forms.length; i++) {
+          forms[i].style.display = "none";
+        }
+
+        document.getElementById(`${type}-form`).style.display = "block";
+      }
+    </script>
+  </body>
+  <br />
+  <hr />
+  <footer align="center">
+    2023 | Copyright | Reserved Rights | Juan Chavarría
+  </footer>
+</html>
