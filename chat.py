@@ -19,8 +19,6 @@ def query(prompt):
                 "content": prompt
             }
         ]
-        
-        
     )
     #choose the first generated response[choices][0], extracts the content of it [message][content]
     queryResponse,likelihood,classification, = data.apiHandler(response.model_dump()['choices'][0]['message']['content'])
