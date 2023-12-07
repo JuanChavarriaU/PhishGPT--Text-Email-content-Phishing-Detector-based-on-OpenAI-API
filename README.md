@@ -1,17 +1,18 @@
 # Project Name
 
-PhishGPT--Text-Email-content-Phishing-Detector-based-on-OpenAI-API
-This--is--a--capstone--project--for--Wizeline--Sprint.
+PhishGPT: Text Email/content Phishing Detector based on OpenAI API
 
 ## Overview
 
 The goal of this project is to show the capabilities of the gpt-3.5-turbo model to analyze and detect Phishing content. Given the current problems caused by this type of attack
-this is the first approch to a future embeded tool for companies.
+this is the first approch to a future embeded tool for companies. Also, This is a capstone project for Wizeline Developers Sprint.
 
 ## Files Overview
 
-This file contains the main Flask application responsible for handling user requests, interacting with the data processing module (`data.py`), and querying the OpenAI GPT-3.5 model through the `chat.py` module.
 ## app.py
+
+This file contains the main Flask application responsible for handling user requests, interacting with the data processing module (`data.py`), and querying the OpenAI GPT-3.5 model through the `chat.py` module.
+
 ### Purpose
 
 `app.py` serves as the entry point for the Flask web application. It handles incoming HTTP requests, processes user input, interacts with the `data` module for text handling, and utilizes the `chat` module to obtain AI-driven responses based on user input prompts.
@@ -112,23 +113,21 @@ This file contains functions responsible for handling text manipulation and proc
     - `details`: Extracted details from the response.
     - `likelihood`: Likelihood score extracted from the response.
     - `classification`: Classification extracted from the response.
+      
 ## Dependencies
 
-List all the dependencies required to run the project. You can mention specific Python packages and their versions, for example:
+All the dependencies required to run the project.
 
 - Flask==1.1.4
 - openai==0.10.2
 
 ## Installation and Setup
 
-
 - Cloning the repository
 - Installing dependencies (`pip install -r requirements.txt`)
 - Environment setup: install anaconda, create an env (use the name you like). 
 
 ## Usage
-
-Explain how to use the project. Provide:
 
 - Once you setup and installed everything, you can go to your terminal, beware of the env, it must be activated, then you can type this -> (`python app.py`) and press enter.
 - if any error is prompted, you should see an ip address something like this: `Running on http://127.0.0.1:5000` you press CTRL+click on this address and it will open your default browser with the app running.
