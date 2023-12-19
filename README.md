@@ -134,4 +134,18 @@ All the dependencies required to run the project.
 
 ## Additional Information (if needed)
 
-- this is a capstone project, in the future will be updated with more functionalities and better UI/IX. 
+- this is a capstone project, in the future will be updated with more functionalities and better UI/IX.
+
+## Things to improve 
+- 1. Error Handling: The code does not appear to have error handling. If the OpenAI API call fails or does not return the expected format, the application might experience unexpected crashes or behavior.
+
+- 2. Input Sanitization: 'data.py' textHandler function santizes input to some extent but does not guard against potential security risks that might arise from user input.
+
+- 3. Parsing Reliability: The 'apiHandler' assumes a specific response format that is prone to break if the format changes. It is based on splitting the response text and finding keywords, which is not very robust.
+
+- 4. Code Structure: The application lacks modularization; the functionality could be better separated into distinct components. Additionally, there is little to no in-code documentation which makes understanding and maintaining the code difficult.
+
+- 5. Security: There are potential security issues with the way the API key is accessed and the lack of input validation/sanitization.
+
+- 6. Innovation: While the application's base functionality is not highly innovative, the idea of using GPT-3 for phishing detection is a novel approach.
+
